@@ -1,0 +1,206 @@
+/* Menu Edit */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(55,55,55,0.1);
+    text-align: center;
+}
+
+nav p{
+    font-family: 'Shadows Into Light', cursive;
+    color:black;
+    font-size: 200%;
+    line-height: 175%;
+    float: left;
+    padding: 0px 20px;
+}
+
+nav ul{
+    float: left;
+
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a{
+    display: block;
+    font-family: 'Merienda', cursive;
+    color:black;
+    font-size: 125%;
+    padding: 20px 14px;
+    text-decoration: none;
+}
+
+nav ul li ul{
+    display: none;
+    position:absolute;
+    background-color: rgba(55,55,55,0.1);
+    padding: 10px;
+    border-radius:4px;
+}
+
+nav ul li:hover ul{
+    display: block;
+}
+
+nav ul li ul li{
+    width: 100%;
+    border-radius:4px;
+}
+
+nav ul li ul li a{
+    padding: 8px 14px;
+}
+
+nav ul li ul li a:hover {
+    background-color: white;
+}
+
+h1 {
+    text-align:center;
+    font-size: 45px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+h4 {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    background-color: rgba(45, 45, 45, 0.1);
+    padding: 10px;
+    font-size: 27px;
+    text-transform:unset;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Merienda', cursive;
+}
+
+.links {
+    text-align: left;
+    color: black;
+    opacity: 0.55;
+}
+
+/* #thumbnail{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+*/
+ 
+.fullCard {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    width: 20%;
+    height: 575px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 5px;
+    padding: 2%;
+}
+
+.cardContent {
+    padding: 10px;
+}
+
+.cardText {
+    margin-bottom: 30px;
+}
+  
+#d1st, #d2nd, #d3rd, #d4th{
+      display: inline-block;          
+}
+
+  /* .cardLinks{
+    padding: 30px 0px 0px 0px;
+    vertical-align: bottom;
+    background-image: linear-gradient(to bottom, transparent, blue);
+    position:absolute;
+    z-index: -1;
+    width
+  } */
+  
+@media (max-width: 456px) { 	
+      #mc_form .form-control {
+          width: 100%;
+          margin-bottom: 15px;
+      }
+
+      .button-leweb {
+          width: 100%;
+      }
+
+      #header .logo {
+          width: 200px;
+      }
+
+      #header h1 {
+          display: none;
+      }
+
+    .fullCard{
+      width: 90%
+    }
+
+}
+/* Small devices (tablets, 768px and less) */
+@media (max-width: 768px) { 
+
+      body {
+          font-size: 14px;
+          line-height: 20px;
+      }
+
+    h1 {
+        font-size: 44px;
+        line-height: 58px;
+      }
+
+      h2 {
+          font-size: 24px;
+          line-height: 38px;
+      }
+
+    h3 {
+          font-size: 18px;
+          line-height: 30px;
+      }
+
+      h4 {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.clocktitle{
+  font-size: 11px;
+}
+
+.numbers {
+  font-size: 44px;
+}
+
+#header .col-md-8 {
+  top: 5%;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (max-width: 992px) {	
+
+#about .middle {
+  margin-top: 65px;
+  margin-bottom: 65px;
+}
+}
